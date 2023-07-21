@@ -88,5 +88,11 @@ function restore(){
 submit.addEventListener('click', addBookToLibrary)
 
 
+const myArray = [1,2,3,4,5]
+
+const doubledArray = myArray.map((number) => {
+    return number *2
+})
 
 
+console.log(doubledArray)
